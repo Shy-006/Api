@@ -1,0 +1,24 @@
+#movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .movie {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  
+    width: calc(33.33% - 24px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  .movie h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  .movie ul {
+    padding: 0;
+    list-style: none;
+  }
+  .movie li {
+    margin-bottom: 8px;
+  }
